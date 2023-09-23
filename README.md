@@ -17,6 +17,9 @@ This change after git stash in another branch.
 =======
 Fri Sep 22 23:25:24 RTZ 2023
 Description about my project.
+<<<<<<< HEAD
 Sat Sep 23 23:35:31 RTZ 2023
 Sat Sep 23 23:35:33 RTZ 2023
 >>>>>>> Stashed changes
+=======
+>>>>>>> feature-branch
