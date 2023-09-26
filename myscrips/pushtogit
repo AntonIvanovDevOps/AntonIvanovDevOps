@@ -6,4 +6,5 @@ cd 'c:/Users/AntonPC/firstrepo/repo/'
 git checkout main
 git add --all
 git commit -m "update master"
+git pull
 git push
