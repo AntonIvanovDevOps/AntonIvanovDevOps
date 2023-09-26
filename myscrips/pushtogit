@@ -1,6 +1,6 @@
 #!/bin/bash
 # Переходим в категорию GIT
-cd '/firstrepo/repo/'
+cd 'c:/Users/AntonPC/firstrepo/repo/'
 
 # Отправляем изменения в ветку dev
 git checkout master
