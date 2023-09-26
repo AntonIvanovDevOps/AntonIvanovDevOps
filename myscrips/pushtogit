@@ -1,5 +1,4 @@
 #!/bin/bash
-# Отправляем изменения в ветку main
 git add --all
 git commit -m "auto update from script"
 git pull
