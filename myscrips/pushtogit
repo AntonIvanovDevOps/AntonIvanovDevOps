@@ -1,0 +1,9 @@
+#!/bin/bash
+# Переходим в категорию GIT
+cd '/firstrepo/repo/'
+
+# Отправляем изменения в ветку dev
+git checkout master
+git add -A
+git commit -m "update master"
+git push
