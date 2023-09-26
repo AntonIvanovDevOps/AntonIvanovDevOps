@@ -1,8 +1,6 @@
 #!/bin/bash
 git add --all
-Echo "Enter a commit"
-read commit
-git commit -m "$commit"
+git commit -m "Auto pushing"
 for remo in $(git remote)
 do
 git push --all $remo
