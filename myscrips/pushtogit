@@ -1,5 +1,13 @@
 #!/bin/bash
-git add --all
-git commit -m "auto update from script"
-git pull
-git push
+repositories=("origin" "upstream")
+commit_message="Auto pushing"
+for remote in "${remotes[@]}"
+do
+    echo "Pushing changes to $remote"
+    git push $remote master
+done
+git add .
+git commit -m "$commit_message"
+git push origin main
+
+
