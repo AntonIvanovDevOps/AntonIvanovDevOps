@@ -2,8 +2,8 @@
 # Переходим в категорию GIT
 cd 'c:/Users/AntonPC/firstrepo/repo/'
 
-# Отправляем изменения в ветку dev
-git checkout master
-git add -A
+# Отправляем изменения в ветку main
+git checkout main
+git add --all
 git commit -m "update master"
 git push
